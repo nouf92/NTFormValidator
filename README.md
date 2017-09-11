@@ -22,7 +22,7 @@ pod 'NTFormValidator'
 
 ## Author
 
-indieNouf, nouf@indielabs.sa
+Nouf Saleh, nouf_alturaief@hotmail.com
 
 ## License
 
