@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NTFormValidator_Example' do
+  pod 'NTFormValidator', :path => '../'
+
+  target 'NTFormValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
