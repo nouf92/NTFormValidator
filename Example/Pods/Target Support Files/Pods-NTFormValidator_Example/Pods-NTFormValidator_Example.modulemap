@@ -1,0 +1,6 @@
+framework module Pods_NTFormValidator_Example {
+  umbrella header "Pods-NTFormValidator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

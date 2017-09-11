@@ -1,0 +1,6 @@
+framework module NTFormValidator {
+  umbrella header "NTFormValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

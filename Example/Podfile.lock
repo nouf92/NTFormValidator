@@ -1,0 +1,16 @@
+PODS:
+  - NTFormValidator (0.1.0)
+
+DEPENDENCIES:
+  - NTFormValidator (from `../`)
+
+EXTERNAL SOURCES:
+  NTFormValidator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NTFormValidator: 4c084e2cea39b6330b6f47d98223c49f1c1a2b1c
+
+PODFILE CHECKSUM: a8065b7a11a0b62b651e81388afd374f53286a4c
+
+COCOAPODS: 1.3.1

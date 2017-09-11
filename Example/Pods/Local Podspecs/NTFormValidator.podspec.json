@@ -1,0 +1,22 @@
+{
+  "name": "NTFormValidator",
+  "version": "0.1.0",
+  "summary": "A short description of NTFormValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/indieNouf/NTFormValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "indieNouf": "nouf@indielabs.sa"
+  },
+  "source": {
+    "git": "https://github.com/indieNouf/NTFormValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NTFormValidator/Classes/**/*"
+}
