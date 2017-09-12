@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D989B13640E52BF46AD9118A84E1CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1E55FA5C1F66C98B001A599F /* NTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E55FA5B1F66C98B001A599F /* NTTextField.swift */; };
 		312B984A5C5AD7D391FCEF621FC7B2C1 /* Pods-NTFormValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5587155646E8A286FCFB48FAD55233C7 /* Pods-NTFormValidator_Tests-dummy.m */; };
 		38AA142DAE7E21AE6FF1297210F073D3 /* NTFormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB939F144E5CF9B5DE1DBAA62D082C8C /* NTFormValidator-dummy.m */; };
-		3F96EDD91C6383B6E69B53DDACF4DEF2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E255E24F4EDC6FCF9C83C4086406734F /* ReplaceMe.swift */; };
 		40614EE6CC9FBD0F19344861A0950405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		413D756FB65BC6ED6ED417521DA0150C /* Pods-NTFormValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A5EE8A26982F5F9AB7AEFE5DC0000C /* Pods-NTFormValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FE35646F973995CFCDE29C2F5123F72 /* Pods-NTFormValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B7D0C2D2EA6D59E0D2F5360D4D13E3 /* Pods-NTFormValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,37 +30,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07ACF3B99D79FE793A7794916C57E101 /* Pods-NTFormValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NTFormValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		07ACF3B99D79FE793A7794916C57E101 /* Pods-NTFormValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NTFormValidator_Tests.modulemap"; sourceTree = "<group>"; };
 		109EF48009A1B6B0DA34EE90E8FA7FF0 /* Pods-NTFormValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NTFormValidator_Tests-resources.sh"; sourceTree = "<group>"; };
-		297F36A4B4A080D1851909DAAB7A9341 /* NTFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NTFormValidator.modulemap; sourceTree = "<group>"; };
+		1E55FA5B1F66C98B001A599F /* NTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NTTextField.swift; path = NTFormValidator/Classes/NTTextField.swift; sourceTree = "<group>"; };
+		297F36A4B4A080D1851909DAAB7A9341 /* NTFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NTFormValidator.modulemap; sourceTree = "<group>"; };
 		3EEE92F121BB3D08676245A48AC2DBEC /* Pods-NTFormValidator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NTFormValidator_Example-resources.sh"; sourceTree = "<group>"; };
 		41B7FA5F1674C43C8B0107270430DAD3 /* Pods-NTFormValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NTFormValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		456A0325DE74F5285151AE490622CA75 /* Pods-NTFormValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NTFormValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4746B06E7A8A7D6A58130A9D588CFF1E /* Pods-NTFormValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NTFormValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5245C6D6DA02AA33589A3CC12028BCBC /* Pods_NTFormValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NTFormValidator_Example.framework; path = "Pods-NTFormValidator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5245C6D6DA02AA33589A3CC12028BCBC /* Pods_NTFormValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTFormValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5587155646E8A286FCFB48FAD55233C7 /* Pods-NTFormValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NTFormValidator_Tests-dummy.m"; sourceTree = "<group>"; };
 		5589283EE215B31890A4BC94C8B0D802 /* Pods-NTFormValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NTFormValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5FA6DAD84CA4E2213C48824A41E40696 /* Pods-NTFormValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NTFormValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6ED838D22BEF7A5BE97F87BD3266DC88 /* Pods_NTFormValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NTFormValidator_Tests.framework; path = "Pods-NTFormValidator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED838D22BEF7A5BE97F87BD3266DC88 /* Pods_NTFormValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTFormValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECC4868F27E58EC9E5A6AA379DDFB93 /* NTFormValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NTFormValidator-umbrella.h"; sourceTree = "<group>"; };
 		80B7D0C2D2EA6D59E0D2F5360D4D13E3 /* Pods-NTFormValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NTFormValidator_Example-umbrella.h"; sourceTree = "<group>"; };
 		848C9BA40A1A5DE083786592F022F25F /* Pods-NTFormValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NTFormValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		85C8A3444FB3193E314232BFCAE0615F /* Pods-NTFormValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NTFormValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		87243BB5F9276E7ADD1B2DDAB82FDD4F /* Pods-NTFormValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NTFormValidator_Example-dummy.m"; sourceTree = "<group>"; };
 		8BF6A0034BCE8291CF9C8B4EBCD08662 /* NTFormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NTFormValidator-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D10AF8A87B47A969AA993F180A8DD3D /* Pods-NTFormValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NTFormValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A09F860673B8F04CCDDB5B1D9E06B045 /* Pods-NTFormValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NTFormValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AB939F144E5CF9B5DE1DBAA62D082C8C /* NTFormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NTFormValidator-dummy.m"; sourceTree = "<group>"; };
 		B1BD5A9289278657B6581E75B9CDAF5A /* NTFormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NTFormValidator.xcconfig; sourceTree = "<group>"; };
-		B9FDB3E81600CE265CDAB5718E351078 /* Pods-NTFormValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NTFormValidator_Example.modulemap"; sourceTree = "<group>"; };
+		B9FDB3E81600CE265CDAB5718E351078 /* Pods-NTFormValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NTFormValidator_Example.modulemap"; sourceTree = "<group>"; };
 		BE7EAB2533E7965C9B67A955EFD20608 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9A5EE8A26982F5F9AB7AEFE5DC0000C /* Pods-NTFormValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NTFormValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D7CA8B8F6F350381D3220EC21255F354 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9B4DED8F79576B5C2900ECD3BF21CCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E255E24F4EDC6FCF9C83C4086406734F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NTFormValidator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		E864201FE60E71A9C44D6808643A8109 /* NTFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NTFormValidator.framework; path = NTFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E864201FE60E71A9C44D6808643A8109 /* NTFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA0F3EECCA8E6CFCDD9BB8A23C799C4 /* Pods-NTFormValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NTFormValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,10 +101,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		1E55FA591F66C954001A599F /* NTFormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				1E55FA5A1F66C95B001A599F /* Classes */,
+			);
+			name = NTFormValidator;
+			sourceTree = "<group>";
+		};
+		1E55FA5A1F66C95B001A599F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E55FA5B1F66C98B001A599F /* NTTextField.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		2908DFE35604582625E3E6F9A8621095 /* NTFormValidator */ = {
 			isa = PBXGroup;
 			children = (
-				E255E24F4EDC6FCF9C83C4086406734F /* ReplaceMe.swift */,
+				1E55FA591F66C954001A599F /* NTFormValidator */,
 				CC50640CA478A931EF39CA95F14CDDE3 /* Support Files */,
 			);
 			name = NTFormValidator;
@@ -296,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					FCA61D37E5113E67FC13A71355D8E0C2 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,7 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38AA142DAE7E21AE6FF1297210F073D3 /* NTFormValidator-dummy.m in Sources */,
-				3F96EDD91C6383B6E69B53DDACF4DEF2 /* ReplaceMe.swift in Sources */,
+				1E55FA5C1F66C98B001A599F /* NTTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1BD5A9289278657B6581E75B9CDAF5A /* NTFormValidator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -635,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1BD5A9289278657B6581E75B9CDAF5A /* NTFormValidator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
