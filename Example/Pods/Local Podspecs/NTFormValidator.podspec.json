@@ -1,22 +1,22 @@
 {
   "name": "NTFormValidator",
   "version": "0.1.0",
-  "summary": "A short description of NTFormValidator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/indieNouf/NTFormValidator",
+  "summary": "Spend less time validating user input in your iOS apps.",
+  "description": "Spend less time validating user input in your iOS apps. You can customize it based on your rules.",
+  "homepage": "https://github.com/Nouf92/NTFormValidator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "indieNouf": "nouf@indielabs.sa"
+    "Nouf Saleh": "nouf_alturaief@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/indieNouf/NTFormValidator.git",
+    "git": "https://github.com/Nouf92/NTFormValidator.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "NTFormValidator/Classes/**/*"
 }

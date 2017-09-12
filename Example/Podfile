@@ -6,6 +6,5 @@ target 'NTFormValidator_Example' do
   target 'NTFormValidator_Tests' do
     inherit! :search_paths
 
-    
   end
 end

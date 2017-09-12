@@ -1,4 +1,4 @@
-import UIKit
+/*import UIKit
 import XCTest
 import NTFormValidator
 
@@ -27,3 +27,4 @@ class Tests: XCTestCase {
     }
     
 }
+*/

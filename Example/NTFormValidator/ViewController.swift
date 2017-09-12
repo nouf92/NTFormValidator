@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import NTFormValidator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Testing
+        let textField = NTTextField()
+        textField.text = "nouf@indielabs.sa"
+        textField.addValidators(types: [.email, .containNumber, .minLength(3)])
+        //textField.addValidator(type: .containNumbers)
+        
+        if textField.validateInput() {
+            print("true")
+        } else {
+            print("false")
+        }
     }
 
     override func didReceiveMemoryWarning() {
