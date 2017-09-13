@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         
         // Testing
         let textField = NTTextField()
-        textField.text = "nouf@indielabs.sa"
-        textField.addValidators(types: [.email, .containNumber, .minLength(3)])
+        textField.text = ""
+        textField.addValidators(types: [.minLength(3), .maxLength(30), .e164Phone])
         //textField.addValidator(type: .containNumbers)
         
         if textField.validateInput() {
